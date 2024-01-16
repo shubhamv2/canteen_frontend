@@ -13,6 +13,14 @@ html, body{
     background-color:#F4F6F6;
 }
 
+.container{
+    width: 100%;
+    padding:.8em;
+    max-width: 1240px;
+    margin: auto;
+   
+}
+
 /* navbar */
 .navbar-wrapper{
     height: 90px;
@@ -122,16 +130,94 @@ html, body{
 /* checkout section */
 .checkout-container{
     display: flex;
+    gap: 1em;
 }
 .checkout-box1{
-
+    flex:3;
 }
 .checkout-box2{
-    
+    flex:1;
+}
+.name-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+.name-cont{
+    display: flex;
+    flex-direction: column;
+}
+.name-cont{
+    width: 100%;
+}
+.name-cont input{
+    padding: .5em;
+    font-size: 1em;
+    outline: none;
+}
+.product-item{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.139);
+    padding: .3em;
+
+}
+.online-option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em .5em;
+    background-color: white;
+
+}
+.payment-options{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    margin: 1em 0;
+}
+.cash-option{
+    padding: 1em .5em;
+    background-color: white;
+}
+.online-option img{
+    width: 100px;
+}
+
+
+.order-place-btn{
+    border:none;
+    background-color: rgb(0, 185, 0);
+    color: white;
+    font-size: 1.3em;
+    width: 100%;
+    padding: .5em;
+    font-weight: 500;
 }
 
 
 
+
+table {
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+  }
+
+  /* Style the table header cells */
+  th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+  }
+
+  /* Style the table data cells */
+  td {
+    padding: 10px;
+  }
+
+  /* Add alternating background color to table rows for better readability */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
 
 /* footer */
 

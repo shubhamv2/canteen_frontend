@@ -26,11 +26,105 @@
     <div class="container">
         <div class="checkout-container">
             <div class="checkout-box1">
-                <h1>Billing Address</h1>
+                <h1>Billing details</h1>
+                <div class="name-container">
+                    <div class="name-cont">
+                        <label for="">First Name</label>
+                        <input type="text" placeholder="First name">
+                    </div>
+                    <div class="name-cont">
+                        <label for="">Last Name</label>
+                        <input type="text" placeholder="Last name">
+                    </div>
+                </div>
+                <div class="address-container">
+                    <div class="name-cont">
+                        <label for="">Street address</label>
+                        <input type="text" placeholder="House number and stree name">
+                        <input type="text" placeholder="Apartment, suite, unite, etc. (optional)">
+                    </div>
+                    <div class="name-cont">
+                        <label for="">Town / City</label>
+                        <input type="text" placeholder="First name">
+                    </div>
+                    <div class="name-cont">
+                        <label for="">State</label>
+                        <input type="text" placeholder="State">
+                    </div>
+                    <div class="name-cont">
+                        <label for="">Pin</label>
+                        <input type="text" placeholder="Pine code">
+                    </div>
+                    <div class="name-cont">
+                        <label for="">Phone</label>
+                        <input type="text" placeholder="Phone number">
+                    </div>
+                    <div class="name-cont">
+                        <label for="">Email</label>
+                        <input type="email" placeholder="Email">
+                    </div>
+
+                </div>
             </div>
             <div class="checkout-box2">
                 <h3>Your Cart</h3>
-                
+                <div class="product-item-container">
+                    <div class="product-item">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Product name</th>
+                                    <th>Subtotal</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Samosa</td>
+                                    <td>&#8377;50</td>
+                                </tr>
+                                <tr>
+                                    <td>Masala Dosa</td>
+                                    <td>&#8377;100</td>
+                                </tr>
+                                <tr>
+                                    <td>Aaloo bhajiya</td>
+                                    <td>&#8377;30</td>
+                                </tr>
+                                <tr>
+                                    <th>Subtotal</th>
+                                    <th>&#8377;180</th>
+                                </tr>
+                                <tr>
+                                    <th>Total</th>
+                                    <th>&#8377;180</th>
+                                </tr>
+
+                                
+                                
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="payment-options">
+                        <div class="cash-option">
+                            <input type="radio" name="payment" value="cash">
+                            <label for="">Cash on delivery</label>
+                        </div>
+                        <div class="cash-option">
+                            Pay with cash upon delivery
+                        </div>
+                        <div class="online-option">
+                            <div class="online-cont">
+                                <input type="radio" name="payment" id="" value="online">
+                                <label for="">PayPal</label>
+                            </div>
+                            <img src="../img/paypal.png" alt="">
+                        </div>
+                    </div>
+
+                    <button class="order-place-btn">Place Order</button>
+                </div>
+
             </div>
         </div>
     </div>
