@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <header class="navbar-wrapper">
         <nav class="navbar">
@@ -26,48 +28,45 @@
     <div class="container">
         <div class="checkout-container">
             <div class="checkout-box1">
-                <h1>Billing details</h1>
+                <h3 class="checkout-heading">Billing details</h3>
                 <div class="name-container">
-                    <div class="name-cont">
-                        <label for="">First Name</label>
-                        <input type="text" placeholder="First name">
+                    <div class="bill-cont">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" placeholder="First name">
                     </div>
-                    <div class="name-cont">
-                        <label for="">Last Name</label>
-                        <input type="text" placeholder="Last name">
+                    <div class="bill-cont">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" placeholder="Last name">
                     </div>
                 </div>
-                <div class="address-container">
-                    <div class="name-cont">
-                        <label for="">Street address</label>
-                        <input type="text" placeholder="House number and stree name">
-                        <input type="text" placeholder="Apartment, suite, unite, etc. (optional)">
-                    </div>
-                    <div class="name-cont">
-                        <label for="">Town / City</label>
-                        <input type="text" placeholder="First name">
-                    </div>
-                    <div class="name-cont">
-                        <label for="">State</label>
-                        <input type="text" placeholder="State">
-                    </div>
-                    <div class="name-cont">
-                        <label for="">Pin</label>
-                        <input type="text" placeholder="Pine code">
-                    </div>
-                    <div class="name-cont">
-                        <label for="">Phone</label>
-                        <input type="text" placeholder="Phone number">
-                    </div>
-                    <div class="name-cont">
-                        <label for="">Email</label>
-                        <input type="email" placeholder="Email">
-                    </div>
-
+                <div class="bill-cont">
+                    <label for="">Street address</label>
+                    <input type="text" placeholder="House number and stree name">
+                    <input type="text" placeholder="Apartment, suite, unite, etc. (optional)">
+                </div>
+                <div class="bill-cont">
+                    <label for="">Town / City</label>
+                    <input type="text" placeholder="First name">
+                </div>
+                <div class="bill-cont">
+                    <label for="">State</label>
+                    <input type="text" placeholder="State">
+                </div>
+                <div class="bill-cont">
+                    <label for="">Pin</label>
+                    <input type="text" placeholder="Pine code">
+                </div>
+                <div class="bill-cont">
+                    <label for="">Phone</label>
+                    <input type="text" placeholder="Phone number">
+                </div>
+                <div class="bill-cont">
+                    <label for="">Email</label>
+                    <input type="email" placeholder="Email">
                 </div>
             </div>
             <div class="checkout-box2">
-                <h3>Your Cart</h3>
+                <h3 class="checkout-heading">Your Cart</h3>
                 <div class="product-item-container">
                     <div class="product-item">
                         <table>
@@ -99,17 +98,15 @@
                                     <th>&#8377;180</th>
                                 </tr>
 
-                                
-                                
+
+
                             </tbody>
                         </table>
                     </div>
 
                     <div class="payment-options">
-                        <div class="cash-option">
-                            <input type="radio" name="payment" value="cash">
-                            <label for="">Cash on delivery</label>
-                        </div>
+                        <label for="cash" class="cash-option"><input id="cash" type="radio" name="payment"
+                                value="cash">Cash on delivery</label>
                         <div class="cash-option">
                             Pay with cash upon delivery
                         </div>
@@ -158,4 +155,5 @@
     </footer>
     <script type="module" src="../Homepage/home.js"></script>
 </body>
+
 </html>

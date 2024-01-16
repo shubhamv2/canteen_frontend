@@ -18,7 +18,6 @@ html, body{
     padding:.8em;
     max-width: 1240px;
     margin: auto;
-   
 }
 
 /* navbar */
@@ -132,28 +131,37 @@ html, body{
     display: flex;
     gap: 1em;
 }
+.checkout-heading{
+    margin-bottom: .5em;
+}
 .checkout-box1{
     flex:3;
+    padding: 2em 3em;
+    background-color: white;
 }
 .checkout-box2{
-    flex:1;
+    flex:2;
+    padding: 1em;
 }
 .name-container{
     display: flex;
     justify-content: space-between;
     gap: 1em;
 }
-.name-cont{
+.bill-cont{
     display: flex;
     flex-direction: column;
+    margin-bottom: .5em;
+    gap: .3em;
 }
-.name-cont{
+.bill-cont{
     width: 100%;
 }
-.name-cont input{
+.bill-cont input{
     padding: .5em;
     font-size: 1em;
     outline: none;
+
 }
 .product-item{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.139);
