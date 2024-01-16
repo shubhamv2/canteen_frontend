@@ -241,6 +241,7 @@ html, body{
     color: white;
     padding: .5em;
     border-radius: 3px;
+    display: inline-block;
 }
 
 
